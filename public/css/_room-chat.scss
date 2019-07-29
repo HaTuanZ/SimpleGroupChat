@@ -1,0 +1,44 @@
+.room-chat{
+    margin: 30px auto;
+    text-align: center;
+    border: $primaryBorder;
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    form{
+        position: relative;
+        bottom: 0;
+        height: 38px;
+        width: 100%;
+        input{
+            height: 100%;
+            width: 80%;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            border: $primaryBorder;
+            resize: none;
+            padding: 5px;
+        }
+        a{
+            margin-top: -4px;
+        }
+
+    }
+
+    .row{
+        height: 100%;
+        width: 100%;
+        .right{
+            height: 100%;           
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+        .left{
+            border-right: $primaryBorder;
+            padding-right: 0 !important;
+            
+        }
+    }
+
+}

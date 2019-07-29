@@ -1,0 +1,43 @@
+$primaryBorder: 1px solid #e9ecef;
+@import "./join-room";
+@import "./room-chat";
+@import "./chat";
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+ul li{
+    list-style: none;
+    text-align: left;
+}
+#root {
+    background-image: url("../img/art-artist-artistic-316465.jpg");
+    background-repeat: no-repeat;
+      /* Full height */
+  height: 100%; 
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.header{
+    h5{      
+        padding: 5px 0;
+        border-bottom: $primaryBorder; 
+    }  
+}
+
+.isDisable{
+    cursor: not-allowed;
+    opacity: 0.5;
+    color: currentColor;
+    display: inline-block;  /* For IE11/ MS Edge bug */
+    pointer-events: none;
+    text-decoration: none;
+}

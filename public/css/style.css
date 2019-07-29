@@ -1,0 +1,168 @@
+.join-room {
+  margin: 200px auto;
+  height: 200px;
+  width: 350px;
+  text-align: center;
+  border: 1px solid #e9ecef;
+  padding: 20px;
+  background: #fff;
+}
+
+.join-room .realative input {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.join-room .realative a {
+  width: 100%;
+}
+
+.join-room i {
+  margin-left: 10px;
+}
+
+.room-chat {
+  margin: 30px auto;
+  text-align: center;
+  border: 1px solid #e9ecef;
+  width: 900px;
+  height: 500px;
+  background-color: white;
+}
+
+.room-chat form {
+  position: relative;
+  bottom: 0;
+  height: 38px;
+  width: 100%;
+}
+
+.room-chat form input {
+  height: 100%;
+  width: 80%;
+  border-radius: 3px;
+  border: 1px solid #e9ecef;
+  resize: none;
+  padding: 5px;
+}
+
+.room-chat form a {
+  margin-top: -4px;
+}
+
+.room-chat .row {
+  height: 100%;
+  width: 100%;
+}
+
+.room-chat .row .right {
+  height: 100%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.room-chat .row .left {
+  border-right: 1px solid #e9ecef;
+  padding-right: 0 !important;
+}
+
+.chat {
+  height: 80%;
+}
+
+.chat .messenger {
+  position: relative;
+  height: 100%;
+}
+
+.chat .messenger ul {
+  position: absolute;
+  width: 100%;
+  height: 95%;
+  padding-right: 0;
+  padding-left: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.chat .messenger ul li {
+  width: 100%;
+}
+
+.chat .messenger ul li p {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 10px 0;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.chat .messenger ul li small {
+  padding-left: 12px;
+}
+
+.chat .messenger ul::-webkit-scrollbar {
+  width: 10px;
+}
+
+.chat .messenger ul::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+li.self, li.self small {
+  margin-left: 45%;
+}
+
+li.self p, li.self small p {
+  background: #1ddced;
+}
+
+li.people p {
+  background: #1adda4;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+ul li {
+  list-style: none;
+  text-align: left;
+}
+
+#root {
+  background-image: url("../img/art-artist-artistic-316465.jpg");
+  background-repeat: no-repeat;
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.header h5 {
+  padding: 5px 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.isDisable {
+  cursor: not-allowed;
+  opacity: 0.5;
+  color: currentColor;
+  display: inline-block;
+  /* For IE11/ MS Edge bug */
+  pointer-events: none;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
